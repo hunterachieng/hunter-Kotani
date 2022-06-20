@@ -1,0 +1,25 @@
+{
+  "name": "sequelize_node",
+  "version": "1.0.0",
+  "description": "Nodejs GraphQL API with Express, Sequelize, and MySQL",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "sequelize",
+    "graphql"
+  ],
+  "author": "hunter",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mysql2": "^2.3.3",
+    "pg": "^8.7.3",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.20.1"
+  }
+}
