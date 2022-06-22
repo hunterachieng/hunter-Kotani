@@ -47,7 +47,7 @@ exports.findAll = (req, res) =>{
 
 };
 
-//single turtorial
+//single tutorial
 exports.findOne = (req,res) =>{
     const id = req.params.id;
     Tutorial.findByPk(id)
