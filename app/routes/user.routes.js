@@ -2,7 +2,7 @@ module.exports = app =>{
     const users = require('../controllers/user.contoller');
     let router = require('express').Router()
     // registration
-    router.post('/', users.register);
+    router.post('/kyc/user/create', users.register);
 
     //login
     router.post('/login', users.login);
@@ -20,5 +20,5 @@ module.exports = app =>{
     router.get('/', users.findAll);
 
     
-    app.use('/user',router)
+    app.use('/api_v2',router)
 }
