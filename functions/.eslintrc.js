@@ -9,6 +9,16 @@ module.exports = {
     "google",
   ],
   rules: {
-    quotes: ["error", "double"],
+    "quotes": [2, "double", {avoidEscape: true}],
+    "semi": [2, "always", {omitLastInOneLineBlock: true}],
+    "camelcase": ["off"],
+    "space-before-function-paren": [
+      "error",
+      {
+        anonymous: "always",
+        named: "never",
+        asyncArrow: "always",
+      },
+    ],
   },
 };

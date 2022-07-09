@@ -6,7 +6,7 @@ const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
 const secret = process.env.SECRET;
 
-exports.register = async (req,res)=>{
+exports.register = async (req,res) => {
     const { email, password } =  req.body
     if(password.length < 6){
         res.status(400).send({message: "Password cannot be less that 6 characters"})
@@ -20,7 +20,7 @@ exports.register = async (req,res)=>{
             password: hash
         }
 
-   await User.create(user)
+    User.create(user)
     .then(data =>{
         const maxAge =  3*60*60 //3hr in seconds
         const token = jwt.sign(
