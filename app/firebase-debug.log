@@ -1,0 +1,25 @@
+[debug] [2022-07-09T09:16:56.969Z] ----------------------------------------------------------------------
+[debug] [2022-07-09T09:16:56.970Z] Command:       /home/hunter/.nvm/versions/node/v14.16.1/bin/node /home/hunter/.nvm/versions/node/v14.16.1/bin/firebase init
+[debug] [2022-07-09T09:16:56.971Z] CLI Version:   10.9.2
+[debug] [2022-07-09T09:16:56.971Z] Platform:      linux
+[debug] [2022-07-09T09:16:56.971Z] Node Version:  v14.16.1
+[debug] [2022-07-09T09:16:56.971Z] Time:          Sat Jul 09 2022 12:16:56 GMT+0300 (East Africa Time)
+[debug] [2022-07-09T09:16:56.971Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-07-09T09:16:57.009Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-07-09T09:16:57.009Z] > authorizing via signed-in user (achienghunter@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /home/hunter/sequelize_node
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
